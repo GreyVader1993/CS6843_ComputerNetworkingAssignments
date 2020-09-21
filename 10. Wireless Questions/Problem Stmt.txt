@@ -1,0 +1,25 @@
+Read Chapter 6 of Kurose & Ross
+
+Problems: R5 to R12
+
+R5. Describe the role of the beacon frames in 802.11.
+Beacon frame is one of the management frames in IEEE 802.11 based WLANs. 
+It contains all the information about the network. 
+Beacon frames are transmitted periodically to announce the presence of a Wireless LAN network. Beacon frames are transmitted by the Access Point (AP) in an infrastructure BSS. 
+The beacon frame contains a number of important fields: • Timestamp: this allows all devices connected to the AP to synchronize with the AP. 
+• Beacon interval: this is the time interval between beacon transmissions. • SSID: Service Set Identifier. • Supported data rates • Parameter sets: This includes information about the specific signaling methods (such as frequency hopping spread spectrum, direct sequence spread spectrum, etc.). • Capability information: This signifies requirements of stations that wish to belong to the wireless LAN that the beacon represents. For example, this information may indicate that all stations must use WPA security
+
+R6. True or false: Before an 802.11 station transmits a data frame, it must first
+send an RTS frame and receive a corresponding CTS frame.
+R7. Why are acknowledgments used in 802.11 but not in wired Ethernet?
+R8. True or false: Ethernet and 802.11 use the same frame structure.
+R9. Describe how the RTS threshold works.
+R10. Suppose the IEEE 802.11 RTS and CTS frames were as long as the standard
+DATA and ACK frames. Would there be any advantage to using the CTS and
+RTS frames? Why or why not?
+R11. Section 6.3.4 discusses 802.11 mobility, in which a wireless station moves
+from one BSS to another within the same subnet. When the APs are interconnected
+with a switch, an AP may need to send a frame with a spoofed MAC
+address to get the switch to forward the frame properly. Why?
+R12. What are the differences between a master device in a Bluetooth network and
+a base station in an 802.11 network?
